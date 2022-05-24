@@ -46,6 +46,7 @@ class RandomChar extends Component {
         });
     }
 
+    //сделал этот метод, который запускает в работу при нажатии кнопки
     onCharLoading = () => {
         this.setState({
             loading: true
